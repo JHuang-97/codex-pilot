@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
-               BuildableName = "PilotApp.app"
-               BlueprintName = "PilotApp"
+               BlueprintIdentifier = "0987BAC3A386FC2EB586A15F"
+               BuildableName = "PilotKit.app"
+               BlueprintName = "PilotKit"
                ReferencedContainer = "container:PilotApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
-            BuildableName = "PilotApp.app"
-            BlueprintName = "PilotApp"
+            BlueprintIdentifier = "0987BAC3A386FC2EB586A15F"
+            BuildableName = "PilotKit.app"
+            BlueprintName = "PilotKit"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
-            BuildableName = "PilotApp.app"
-            BlueprintName = "PilotApp"
+            BlueprintIdentifier = "0987BAC3A386FC2EB586A15F"
+            BuildableName = "PilotKit.app"
+            BlueprintName = "PilotKit"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
-            BuildableName = "PilotApp.app"
-            BlueprintName = "PilotApp"
+            BlueprintIdentifier = "0987BAC3A386FC2EB586A15F"
+            BuildableName = "PilotKit.app"
+            BlueprintName = "PilotKit"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

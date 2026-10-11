@@ -1,5 +1,5 @@
 import XCTest
-@testable import PilotKit
+@testable import PilotCore
 
 /// Acceptance tests written by the orchestrator (Muse), independent of the
 /// implementer's own tests. Expected values computed by hand from the spec.

@@ -4,10 +4,14 @@ import PackageDescription
 let package = Package(
     name: "PilotKit",
     products: [
-        .library(name: "PilotKit", targets: ["PilotKit"])
+        .library(name: "PilotCore", targets: ["PilotCore"])
     ],
     targets: [
-        .target(name: "PilotKit"),
-        .testTarget(name: "PilotKitTests", dependencies: ["PilotKit"])
+        .target(name: "PilotCore", path: "Sources/PilotKit"),
+        .testTarget(
+            name: "PilotKitTests",
+            dependencies: ["PilotCore"],
+            path: "Tests/PilotKitTests"
+        )
     ]
 )

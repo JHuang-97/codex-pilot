@@ -1,5 +1,5 @@
 import XCTest
-@testable import PilotKit
+@testable import PilotCore
 
 final class PilotKitTests: XCTestCase {
     func testKarvonenZones() {

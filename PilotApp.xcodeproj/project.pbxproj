@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B3C79752510676EA71C92F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BE517BBC0242027C4EEF6 /* ContentView.swift */; };
-		0BE5070281A35D6E66DCFDD7 /* PilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA103E1FCD86EFD91676522 /* PilotApp.swift */; };
-		5A30C1C68BEECB8F6C8A4EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B5C2EABD48440184995506 /* Assets.xcassets */; };
-		B3398D6E8D51B804D431979A /* PilotKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3ED2CBD4894D18AD8055DB1D /* PilotKit */; };
+		1776801A9EDDDDF63D5C22C8 /* PilotCore in Frameworks */ = {isa = PBXBuildFile; productRef = 859FA8BDA19A63DF796BF949 /* PilotCore */; };
+		2BDD448FFEA75C7C1B2A73FC /* PilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA103E1FCD86EFD91676522 /* PilotApp.swift */; };
+		3CFE9F3C0A8BA61B59995578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B5C2EABD48440184995506 /* Assets.xcassets */; };
+		B5B08E3715A7D5A96112943F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855BE517BBC0242027C4EEF6 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,15 +19,15 @@
 		5AA103E1FCD86EFD91676522 /* PilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilotApp.swift; sourceTree = "<group>"; };
 		6901A224B24584A441063C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		855BE517BBC0242027C4EEF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F213B16DEB030344517B48EB /* PilotApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PilotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D544FAF34877832E654614B1 /* PilotKit.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PilotKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A20EB4185202E1DBFF9240C0 /* Frameworks */ = {
+		3D2A0BF98E6DAAE3B0CA0801 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3398D6E8D51B804D431979A /* PilotKit in Frameworks */,
+				1776801A9EDDDDF63D5C22C8 /* PilotCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		FCB486913AA58D638E7B9E6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F213B16DEB030344517B48EB /* PilotApp.app */,
+				D544FAF34877832E654614B1 /* PilotKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,24 +73,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59DFB0EC1D7A5F226A62F29C /* PilotApp */ = {
+		0987BAC3A386FC2EB586A15F /* PilotKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E59471CA2EB4CD82149C2E74 /* Build configuration list for PBXNativeTarget "PilotApp" */;
+			buildConfigurationList = 256EE1FE840D967F2C1BC840 /* Build configuration list for PBXNativeTarget "PilotKit" */;
 			buildPhases = (
-				BB8DF5803540F97C1C0BEBB4 /* Sources */,
-				5056110434DF106B6B371CFF /* Resources */,
-				A20EB4185202E1DBFF9240C0 /* Frameworks */,
+				02C8299A972E018CD475A4AD /* Sources */,
+				DA860D8BEB0BA9FB467D776C /* Resources */,
+				3D2A0BF98E6DAAE3B0CA0801 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PilotApp;
+			name = PilotKit;
 			packageProductDependencies = (
-				3ED2CBD4894D18AD8055DB1D /* PilotKit */,
+				859FA8BDA19A63DF796BF949 /* PilotCore */,
 			);
-			productName = PilotApp;
-			productReference = F213B16DEB030344517B48EB /* PilotApp.app */;
+			productName = PilotKit;
+			productReference = D544FAF34877832E654614B1 /* PilotKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					59DFB0EC1D7A5F226A62F29C = {
+					0987BAC3A386FC2EB586A15F = {
 						DevelopmentTeam = 2TJBL37P93;
 						ProvisioningStyle = Automatic;
 					};
@@ -125,36 +125,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59DFB0EC1D7A5F226A62F29C /* PilotApp */,
+				0987BAC3A386FC2EB586A15F /* PilotKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5056110434DF106B6B371CFF /* Resources */ = {
+		DA860D8BEB0BA9FB467D776C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A30C1C68BEECB8F6C8A4EFB /* Assets.xcassets in Resources */,
+				3CFE9F3C0A8BA61B59995578 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB8DF5803540F97C1C0BEBB4 /* Sources */ = {
+		02C8299A972E018CD475A4AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3C79752510676EA71C92F9 /* ContentView.swift in Sources */,
-				0BE5070281A35D6E66DCFDD7 /* PilotApp.swift in Sources */,
+				B5B08E3715A7D5A96112943F /* ContentView.swift in Sources */,
+				2BDD448FFEA75C7C1B2A73FC /* PilotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4BE365BE4C3A4F61263BF253 /* Release */ = {
+		13715BA772B58547D279DB90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -170,12 +170,35 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.junhao-h.pilotkit";
-				PRODUCT_MODULE_NAME = PilotApp;
-				PRODUCT_NAME = PilotApp;
+				PRODUCT_MODULE_NAME = PilotKit;
+				PRODUCT_NAME = PilotKit;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		1FD48295C8F644CDD0391377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TJBL37P93;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PilotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junhao-h.pilotkit";
+				PRODUCT_MODULE_NAME = PilotKit;
+				PRODUCT_NAME = PilotKit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
 		};
 		8F007E7C852514077E174F47 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -296,46 +319,23 @@
 			};
 			name = Release;
 		};
-		FE85355B3D121551FB34C30F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2TJBL37P93;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = PilotApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.junhao-h.pilotkit";
-				PRODUCT_MODULE_NAME = PilotApp;
-				PRODUCT_NAME = PilotApp;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		256EE1FE840D967F2C1BC840 /* Build configuration list for PBXNativeTarget "PilotKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD48295C8F644CDD0391377 /* Debug */,
+				13715BA772B58547D279DB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		C78E1531E69A48CC109E6C15 /* Build configuration list for PBXProject "PilotApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F007E7C852514077E174F47 /* Debug */,
 				9A664BCC8F4B4EDE31AC2E4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		E59471CA2EB4CD82149C2E74 /* Build configuration list for PBXNativeTarget "PilotApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE85355B3D121551FB34C30F /* Debug */,
-				4BE365BE4C3A4F61263BF253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -350,9 +350,9 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3ED2CBD4894D18AD8055DB1D /* PilotKit */ = {
+		859FA8BDA19A63DF796BF949 /* PilotCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = PilotKit;
+			productName = PilotCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

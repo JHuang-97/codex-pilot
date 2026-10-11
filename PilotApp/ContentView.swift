@@ -1,5 +1,5 @@
 import SwiftUI
-import PilotKit
+import PilotCore
 
 struct ContentView: View {
     @State private var maxHR = 190

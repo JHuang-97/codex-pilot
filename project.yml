@@ -8,17 +8,17 @@ options:
   xcodeVersion: "26.0"
 
 packages:
-  PilotKit:
+  PilotCore:
     path: .
 
 targets:
-  PilotApp:
+  PilotKit:
     type: application
     platform: iOS
     sources:
       - path: PilotApp
     dependencies:
-      - package: PilotKit
+      - package: PilotCore
     settings:
       base:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
@@ -29,15 +29,15 @@ targets:
         INFOPLIST_FILE: PilotApp/Info.plist
         MARKETING_VERSION: 1.0
         PRODUCT_BUNDLE_IDENTIFIER: com.junhao-h.pilotkit
-        PRODUCT_MODULE_NAME: PilotApp
-        PRODUCT_NAME: PilotApp
+        PRODUCT_MODULE_NAME: PilotKit
+        PRODUCT_NAME: PilotKit
         TARGETED_DEVICE_FAMILY: 1
 
 schemes:
-  PilotApp:
+  PilotKit:
     build:
       targets:
-        PilotApp: all
+        PilotKit: all
     run:
       config: Debug
     archive:
