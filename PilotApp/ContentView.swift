@@ -34,7 +34,7 @@ struct ContentView: View {
                     }
                     LabeledContent("ACWR") {
                         if let ratio = LoadMath.acwr(acute: acuteLoads, chronic: chronicLoads) {
-                            Text(ratio, format: .number.precision(.fractionLength(2)))
+                            Text("\(String(format: "%.2f", ratio)) · \(LoadMath.acwrCategory(ratio).rawValue)")
                         } else {
                             Text("Unavailable")
                         }
