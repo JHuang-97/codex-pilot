@@ -27,4 +27,12 @@ final class PilotKitTests: XCTestCase {
         XCTAssertEqual(LoadMath.acwr(acute: [100, 100], chronic: [50, 50]), 2.0)
         XCTAssertNil(LoadMath.acwr(acute: [100, 100], chronic: []))
     }
+
+    func testACWRCategory() {
+        XCTAssertEqual(LoadMath.acwrCategory(0.7), .low)
+        XCTAssertEqual(LoadMath.acwrCategory(0.8), .optimal)
+        XCTAssertEqual(LoadMath.acwrCategory(1.3), .optimal)
+        XCTAssertEqual(LoadMath.acwrCategory(1.4), .caution)
+        XCTAssertEqual(LoadMath.acwrCategory(1.6), .high)
+    }
 }
