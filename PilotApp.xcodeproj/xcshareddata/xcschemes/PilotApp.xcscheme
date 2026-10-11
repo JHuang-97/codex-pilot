@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0DE00000000000000000002"
-               BuildableName = "PilotKit.app"
-               BlueprintName = "PilotKit"
+               BuildableName = "PilotApp.app"
+               BlueprintName = "PilotApp"
                ReferencedContainer = "container:PilotApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE00000000000000000002"
-            BuildableName = "PilotKit.app"
-            BlueprintName = "PilotKit"
+            BuildableName = "PilotApp.app"
+            BlueprintName = "PilotApp"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0DE00000000000000000002"
-            BuildableName = "PilotKit.app"
-            BlueprintName = "PilotKit"
+            BuildableName = "PilotApp.app"
+            BlueprintName = "PilotApp"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
