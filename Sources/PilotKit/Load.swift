@@ -13,4 +13,18 @@ public enum LoadMath {
         guard chronicMean != 0 else { return nil }
         return acuteMean / chronicMean
     }
+
+    public static func acwrCategory(_ ratio: Double) -> ACWRCategory {
+        if ratio < 0.8 { return .low }
+        if ratio <= 1.3 { return .optimal }
+        if ratio <= 1.5 { return .caution }
+        return .high
+    }
+}
+
+public enum ACWRCategory: String, Sendable {
+    case low = "Low"
+    case optimal = "Optimal"
+    case caution = "Caution"
+    case high = "High"
 }
