@@ -5,6 +5,8 @@ DerivedData/
 *.xcresult
 
 *.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
 *.xcworkspace/xcuserdata/
 
+.muse-template.*/

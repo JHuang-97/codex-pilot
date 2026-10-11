@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "2600"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      runPostActionsOnFailure = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0DE00000000000000000002"
+               BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
                BuildableName = "PilotApp.app"
                BlueprintName = "PilotApp"
                ReferencedContainer = "container:PilotApp.xcodeproj">
@@ -28,7 +28,18 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      onlyGenerateCoverageForSpecifiedTargets = "NO">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
+            BuildableName = "PilotApp.app"
+            BlueprintName = "PilotApp"
+            ReferencedContainer = "container:PilotApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,12 +55,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0DE00000000000000000002"
+            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
             BuildableName = "PilotApp.app"
             BlueprintName = "PilotApp"
             ReferencedContainer = "container:PilotApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0DE00000000000000000002"
+            BlueprintIdentifier = "59DFB0EC1D7A5F226A62F29C"
             BuildableName = "PilotApp.app"
             BlueprintName = "PilotApp"
             ReferencedContainer = "container:PilotApp.xcodeproj">

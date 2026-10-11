@@ -1,5 +1,12 @@
 PilotKit is a minimal, dependency-free Swift package for Karvonen heart-rate zones, exponentially weighted moving averages, and acute-to-chronic workload ratios. It is a Muse x Codex pipeline pilot.
 
+The iOS project is generated from `project.yml` with XcodeGen. Regenerate it
+after changing targets, build settings, or dependencies:
+
+```sh
+xcodegen generate
+```
+
 ## Xcode Cloud
 
 The shared `PilotApp` scheme archives the iOS app for TestFlight. Xcode Cloud
